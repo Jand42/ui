@@ -1326,421 +1326,421 @@ module Html =
         // {{ event
         /// Create a handler for the event "abort".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member abort ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "abort" f
+        static member abort ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "abort" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "afterprint".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member afterPrint ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "afterprint" f
+        static member afterPrint ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "afterprint" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "animationend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member animationEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "animationend" f
+        static member animationEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "animationend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "animationiteration".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member animationIteration ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "animationiteration" f
+        static member animationIteration ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "animationiteration" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "animationstart".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member animationStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "animationstart" f
+        static member animationStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "animationstart" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "audioprocess".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member audioProcess ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "audioprocess" f
+        static member audioProcess ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "audioprocess" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "beforeprint".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member beforePrint ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "beforeprint" f
+        static member beforePrint ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "beforeprint" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "beforeunload".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member beforeUnload ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "beforeunload" f
+        static member beforeUnload ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "beforeunload" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "beginEvent".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member beginEvent ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "beginEvent" f
+        static member beginEvent ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "beginEvent" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "blocked".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member blocked ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "blocked" f
+        static member blocked ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "blocked" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "blur".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member blur ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.FocusEvent -> unit>) = Attr.HandlerImpl "blur" f
+        static member blur ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.FocusEvent -> unit>) = Attr.HandlerImpl "blur" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "cached".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member cached ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "cached" f
+        static member cached ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "cached" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "canplay".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member canPlay ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "canplay" f
+        static member canPlay ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "canplay" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "canplaythrough".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member canPlayThrough ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "canplaythrough" f
+        static member canPlayThrough ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "canplaythrough" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "change".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member change ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "change" f
+        static member change ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "change" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "chargingchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member chargingChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "chargingchange" f
+        static member chargingChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "chargingchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "chargingtimechange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member chargingTimeChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "chargingtimechange" f
+        static member chargingTimeChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "chargingtimechange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "checking".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member checking ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "checking" f
+        static member checking ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "checking" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "click".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member click ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "click" f
+        static member click ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "click" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "close".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member close ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "close" f
+        static member close ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "close" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "complete".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member complete ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "complete" f
+        static member complete ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "complete" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "compositionend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member compositionEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.CompositionEvent -> unit>) = Attr.HandlerImpl "compositionend" f
+        static member compositionEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.CompositionEvent -> unit>) = Attr.HandlerImpl "compositionend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "compositionstart".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member compositionStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.CompositionEvent -> unit>) = Attr.HandlerImpl "compositionstart" f
+        static member compositionStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.CompositionEvent -> unit>) = Attr.HandlerImpl "compositionstart" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "compositionupdate".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member compositionUpdate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.CompositionEvent -> unit>) = Attr.HandlerImpl "compositionupdate" f
+        static member compositionUpdate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.CompositionEvent -> unit>) = Attr.HandlerImpl "compositionupdate" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "contextmenu".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member contextMenu ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "contextmenu" f
+        static member contextMenu ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "contextmenu" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "copy".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member copy ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "copy" f
+        static member copy ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "copy" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "cut".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member cut ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "cut" f
+        static member cut ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "cut" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dblclick".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dblClick ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "dblclick" f
+        static member dblClick ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "dblclick" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "devicelight".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member deviceLight ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "devicelight" f
+        static member deviceLight ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "devicelight" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "devicemotion".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member deviceMotion ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "devicemotion" f
+        static member deviceMotion ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "devicemotion" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "deviceorientation".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member deviceOrientation ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "deviceorientation" f
+        static member deviceOrientation ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "deviceorientation" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "deviceproximity".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member deviceProximity ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "deviceproximity" f
+        static member deviceProximity ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "deviceproximity" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dischargingtimechange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dischargingTimeChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dischargingtimechange" f
+        static member dischargingTimeChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dischargingtimechange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMActivate".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMActivate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "DOMActivate" f
+        static member DOMActivate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "DOMActivate" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMAttributeNameChanged".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMAttributeNameChanged ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "DOMAttributeNameChanged" f
+        static member DOMAttributeNameChanged ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "DOMAttributeNameChanged" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMAttrModified".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMAttrModified ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMAttrModified" f
+        static member DOMAttrModified ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMAttrModified" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMCharacterDataModified".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMCharacterDataModified ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMCharacterDataModified" f
+        static member DOMCharacterDataModified ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMCharacterDataModified" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMContentLoaded".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMContentLoaded ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "DOMContentLoaded" f
+        static member DOMContentLoaded ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "DOMContentLoaded" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMElementNameChanged".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMElementNameChanged ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "DOMElementNameChanged" f
+        static member DOMElementNameChanged ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "DOMElementNameChanged" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMNodeInserted".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMNodeInserted ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeInserted" f
+        static member DOMNodeInserted ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeInserted" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMNodeInsertedIntoDocument".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMNodeInsertedIntoDocument ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeInsertedIntoDocument" f
+        static member DOMNodeInsertedIntoDocument ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeInsertedIntoDocument" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMNodeRemoved".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMNodeRemoved ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeRemoved" f
+        static member DOMNodeRemoved ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeRemoved" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMNodeRemovedFromDocument".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMNodeRemovedFromDocument ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeRemovedFromDocument" f
+        static member DOMNodeRemovedFromDocument ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMNodeRemovedFromDocument" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "DOMSubtreeModified".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member DOMSubtreeModified ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMSubtreeModified" f
+        static member DOMSubtreeModified ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MutationEvent -> unit>) = Attr.HandlerImpl "DOMSubtreeModified" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "downloading".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member downloading ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "downloading" f
+        static member downloading ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "downloading" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "drag".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member drag ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "drag" f
+        static member drag ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "drag" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dragend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dragEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragend" f
+        static member dragEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dragenter".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dragEnter ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragenter" f
+        static member dragEnter ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragenter" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dragleave".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dragLeave ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragleave" f
+        static member dragLeave ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragleave" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dragover".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dragOver ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragover" f
+        static member dragOver ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragover" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "dragstart".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member dragStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragstart" f
+        static member dragStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "dragstart" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "drop".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member drop ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "drop" f
+        static member drop ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "drop" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "durationchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member durationChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "durationchange" f
+        static member durationChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "durationchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "emptied".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member emptied ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "emptied" f
+        static member emptied ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "emptied" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "ended".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member ended ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "ended" f
+        static member ended ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "ended" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "endEvent".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member endEvent ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "endEvent" f
+        static member endEvent ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "endEvent" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "error".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member error ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "error" f
+        static member error ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "error" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "focus".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member focus ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.FocusEvent -> unit>) = Attr.HandlerImpl "focus" f
+        static member focus ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.FocusEvent -> unit>) = Attr.HandlerImpl "focus" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "fullscreenchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member fullScreenChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "fullscreenchange" f
+        static member fullScreenChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "fullscreenchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "fullscreenerror".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member fullScreenError ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "fullscreenerror" f
+        static member fullScreenError ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "fullscreenerror" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "gamepadconnected".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member gamepadConnected ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "gamepadconnected" f
+        static member gamepadConnected ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "gamepadconnected" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "gamepaddisconnected".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member gamepadDisconnected ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "gamepaddisconnected" f
+        static member gamepadDisconnected ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "gamepaddisconnected" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "hashchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member hashChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "hashchange" f
+        static member hashChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "hashchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "input".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member input ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "input" f
+        static member input ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "input" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "invalid".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member invalid ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "invalid" f
+        static member invalid ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "invalid" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "keydown".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member keyDown ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.KeyboardEvent -> unit>) = Attr.HandlerImpl "keydown" f
+        static member keyDown ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.KeyboardEvent -> unit>) = Attr.HandlerImpl "keydown" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "keypress".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member keyPress ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.KeyboardEvent -> unit>) = Attr.HandlerImpl "keypress" f
+        static member keyPress ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.KeyboardEvent -> unit>) = Attr.HandlerImpl "keypress" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "keyup".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member keyUp ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.KeyboardEvent -> unit>) = Attr.HandlerImpl "keyup" f
+        static member keyUp ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.KeyboardEvent -> unit>) = Attr.HandlerImpl "keyup" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "languagechange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member languageChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "languagechange" f
+        static member languageChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "languagechange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "levelchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member levelChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "levelchange" f
+        static member levelChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "levelchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "load".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member load ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "load" f
+        static member load ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "load" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "loadeddata".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member loadedData ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadeddata" f
+        static member loadedData ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadeddata" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "loadedmetadata".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member loadedMetadata ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadedmetadata" f
+        static member loadedMetadata ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadedmetadata" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "loadend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member loadEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadend" f
+        static member loadEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "loadstart".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member loadStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadstart" f
+        static member loadStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "loadstart" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "message".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member message ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "message" f
+        static member message ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "message" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mousedown".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseDown ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mousedown" f
+        static member mouseDown ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mousedown" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mouseenter".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseEnter ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseenter" f
+        static member mouseEnter ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseenter" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mouseleave".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseLeave ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseleave" f
+        static member mouseLeave ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseleave" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mousemove".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseMove ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mousemove" f
+        static member mouseMove ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mousemove" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mouseout".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseOut ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseout" f
+        static member mouseOut ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseout" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mouseover".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseOver ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseover" f
+        static member mouseOver ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseover" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "mouseup".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member mouseUp ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseup" f
+        static member mouseUp ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "mouseup" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "noupdate".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member noUpdate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "noupdate" f
+        static member noUpdate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "noupdate" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "obsolete".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member obsolete ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "obsolete" f
+        static member obsolete ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "obsolete" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "offline".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member offline ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "offline" f
+        static member offline ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "offline" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "online".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member online ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "online" f
+        static member online ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "online" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "open".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member ``open`` ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "open" f
+        static member ``open`` ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "open" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "orientationchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member orientationChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "orientationchange" f
+        static member orientationChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "orientationchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "pagehide".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member pageHide ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pagehide" f
+        static member pageHide ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pagehide" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "pageshow".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member pageShow ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pageshow" f
+        static member pageShow ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pageshow" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "paste".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member paste ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "paste" f
+        static member paste ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "paste" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "pause".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member pause ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pause" f
+        static member pause ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pause" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "play".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member play ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "play" f
+        static member play ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "play" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "playing".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member playing ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "playing" f
+        static member playing ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "playing" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "pointerlockchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member pointerLockChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pointerlockchange" f
+        static member pointerLockChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pointerlockchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "pointerlockerror".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member pointerLockError ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pointerlockerror" f
+        static member pointerLockError ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "pointerlockerror" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "popstate".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member popState ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "popstate" f
+        static member popState ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "popstate" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "progress".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member progress ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "progress" f
+        static member progress ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "progress" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "ratechange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member rateChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "ratechange" f
+        static member rateChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "ratechange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "readystatechange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member readyStateChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "readystatechange" f
+        static member readyStateChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "readystatechange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "repeatEvent".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member repeatEvent ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "repeatEvent" f
+        static member repeatEvent ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "repeatEvent" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "reset".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member reset ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "reset" f
+        static member reset ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "reset" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "resize".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member resize ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "resize" f
+        static member resize ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "resize" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "scroll".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member scroll ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "scroll" f
+        static member scroll ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "scroll" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "seeked".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member seeked ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "seeked" f
+        static member seeked ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "seeked" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "seeking".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member seeking ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "seeking" f
+        static member seeking ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "seeking" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "select".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member select ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "select" f
+        static member select ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "select" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "show".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member show ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "show" f
+        static member show ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.MouseEvent -> unit>) = Attr.HandlerImpl "show" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "stalled".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member stalled ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "stalled" f
+        static member stalled ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "stalled" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "storage".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member storage ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "storage" f
+        static member storage ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "storage" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "submit".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member submit ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "submit" f
+        static member submit ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "submit" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "success".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member success ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "success" f
+        static member success ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "success" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "suspend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member suspend ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "suspend" f
+        static member suspend ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "suspend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGAbort".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGAbort ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGAbort" f
+        static member SVGAbort ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGAbort" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGError".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGError ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGError" f
+        static member SVGError ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGError" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGLoad".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGLoad ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGLoad" f
+        static member SVGLoad ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGLoad" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGResize".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGResize ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGResize" f
+        static member SVGResize ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGResize" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGScroll".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGScroll ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGScroll" f
+        static member SVGScroll ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGScroll" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGUnload".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGUnload ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGUnload" f
+        static member SVGUnload ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGUnload" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "SVGZoom".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member SVGZoom ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGZoom" f
+        static member SVGZoom ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "SVGZoom" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "timeout".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member timeOut ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "timeout" f
+        static member timeOut ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "timeout" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "timeupdate".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member timeUpdate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "timeupdate" f
+        static member timeUpdate ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "timeupdate" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "touchcancel".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member touchCancel ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchcancel" f
+        static member touchCancel ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchcancel" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "touchend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member touchEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchend" f
+        static member touchEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "touchenter".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member touchEnter ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchenter" f
+        static member touchEnter ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchenter" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "touchleave".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member touchLeave ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchleave" f
+        static member touchLeave ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchleave" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "touchmove".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member touchMove ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchmove" f
+        static member touchMove ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchmove" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "touchstart".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member touchStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchstart" f
+        static member touchStart ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "touchstart" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "transitionend".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member transitionEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "transitionend" f
+        static member transitionEnd ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "transitionend" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "unload".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member unload ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "unload" f
+        static member unload ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.UIEvent -> unit>) = Attr.HandlerImpl "unload" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "updateready".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member updateReady ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "updateready" f
+        static member updateReady ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "updateready" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "upgradeneeded".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member upgradeNeeded ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "upgradeneeded" f
+        static member upgradeNeeded ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "upgradeneeded" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "userproximity".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member userProximity ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "userproximity" f
+        static member userProximity ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "userproximity" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "versionchange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member versionChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "versionchange" f
+        static member versionChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "versionchange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "visibilitychange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member visibilityChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "visibilitychange" f
+        static member visibilityChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "visibilitychange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "volumechange".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member volumeChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "volumechange" f
+        static member volumeChange ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "volumechange" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "waiting".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member waiting ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "waiting" f
+        static member waiting ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.Event -> unit>) = Attr.HandlerImpl "waiting" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         /// Create a handler for the event "wheel".
         /// When called on the server side, the handler must be a top-level function or a static member.
-        static member wheel ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.WheelEvent -> unit>) = Attr.HandlerImpl "wheel" f
+        static member wheel ([<JavaScript; ReflectedDefinition>] f: Microsoft.FSharp.Quotations.Expr<JavaScript.Dom.Element -> JavaScript.Dom.WheelEvent -> unit>) = Attr.HandlerImpl "wheel" (System.Reflection.Assembly.GetCallingAssembly().GetName().Name) f
         // }}
 
     /// SVG attributes.

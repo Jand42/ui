@@ -21,6 +21,23 @@
 namespace WebSharper.UI.Client
 
 open WebSharper.UI
+open Microsoft.FSharp.Quotations
+
+type internal IAttrNode =
+    abstract Changed : View<unit>
+    abstract GetChangeAnim : Element -> Anim
+    abstract GetEnterAnim : Element -> Anim
+    abstract GetExitAnim : Element -> Anim
+    abstract Sync : Element -> unit
+
+type internal AttrProxy =
+    | A0
+    | A1 of IAttrNode
+    | A2 of AttrProxy * AttrProxy
+    | A3 of init: (Element -> unit)
+    | A4 of onAfterRender: (Element -> unit)
+    with
+    static member HandlerImpl : event:string -> q:Expr<Element -> #DomEvent-> unit> -> Attr
 
 type CheckedInput<'T> =
     | Valid of value: 'T * inputText: string

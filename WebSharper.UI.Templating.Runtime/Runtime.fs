@@ -232,13 +232,14 @@ type Runtime private () =
             let parsed, _, _ = Parsing.ParseSource baseName src
             loaded.AddOrUpdate(baseName, parsed, fun _ _ -> parsed)
         let requireResources = Dictionary(StringComparer.InvariantCultureIgnoreCase)
+        let asm = System.Reflection.Assembly.GetCallingAssembly().GetName().Name
         fillWith |> Seq.iter (function
             | TemplateHole.Elt (n, d) when not (obj.ReferenceEquals(d, null)) ->
                 requireResources.Add(n, d :> IRequiresResources)
             | TemplateHole.Attribute (n, a) when not (obj.ReferenceEquals(a, null)) ->
                 requireResources.Add(n, a :> IRequiresResources)
             | TemplateHole.EventQ (n, _, e) ->
-                requireResources.Add(n, Attr.HandlerImpl "" e :> IRequiresResources)
+                requireResources.Add(n, Attr.HandlerImpl "" asm e :> IRequiresResources)
             | _ -> ()
         )
 

@@ -268,6 +268,7 @@ type AttrProxy with
     static member HandlerImpl (event: string) (q: Expr<Element -> #DomEvent-> unit>) =
         As<Attr> (Attrs.Static (fun el -> el.AddEventListener(event, (As<Element -> DomEvent -> unit> q) el, false)))
 
+    [<Inline>]
     static member Handler (event: string) (q: Expr<Element -> #DomEvent-> unit>) =
         AttrProxy.HandlerImpl event q
 

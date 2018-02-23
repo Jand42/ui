@@ -51,12 +51,12 @@ module private Internal =
             } 
         )
 
-    let compile (meta: M.Info) (json: J.Provider) (q: Expr) =
+    let compile (meta: M.Info) (json: J.Provider) asm (q: Expr) =
         let reqs = ResizeArray<M.Node>()
         let rec compile' (q: Expr) =
             match getLocation q with
             | Some p ->
-                match meta.Quotations.TryGetValue(p) with
+                match meta.Quotations.TryGetValue((asm, p)) with
                 | false, _ ->
                     None
                 | true, (declType, meth, argNames) ->
@@ -158,13 +158,13 @@ type Attr =
     static member WithDependencies(name, getValue, deps) =
         DepAttr (name, getValue, deps)
 
-    static member HandlerImpl (event: string) (q: Expr<Dom.Element -> #Dom.Event -> unit>) =
+    static member HandlerImpl (event: string) asm (q: Expr<Dom.Element -> #Dom.Event -> unit>) =
         let json = WebSharper.Web.Shared.Json // TODO: fix?
         let value = ref None
         let init meta =
             if Option.isNone !value then
                 value :=
-                    match Internal.compile meta json q with
+                    match Internal.compile meta json asm q with
                     | Some _ as v -> v
                     | _ ->
                         let m =
@@ -183,7 +183,8 @@ type Attr =
         Attr.WithDependencies("on" + event, getValue, getReqs)
 
     static member Handler (event: string) ([<JavaScript>] q: Expr<Dom.Element -> #Dom.Event -> unit>) =
-        Attr.HandlerImpl event q
+        let asm = System.Reflection.Assembly.GetCallingAssembly().GetName().Name
+        Attr.HandlerImpl event asm q
 
     static member HandlerFallback(m, location) =
         let meth = R.ReadMethod m
